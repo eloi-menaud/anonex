@@ -95,8 +95,8 @@ the \1 try yo retreive the first group
 - ~ln  : last name
 - ~fn  : first name
 - ~ddb : date with database syntaxe yyyy-mm-dd hh:mm:ss
-- ~dra : date with classic americain syntaxe mm/dd/yyyy
-- ~dre : date with classic americain syntaxe mm/dd/yyyy
+- ~da : date with classic americain syntaxe mm/dd/yyyy
+- ~de : date with classic americain syntaxe mm/dd/yyyy
 
 ```
 use like :
