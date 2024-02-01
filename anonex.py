@@ -19,8 +19,8 @@ man = """
 │  ~ln  : last name
 │  ~fn  : first name
 │  ~ddb : date (db)
-│  ~dra : date (classic americain)
-│  ~dre : date (classic european)
+│  ~da : date (classic americain)
+│  ~de : date (classic european)
 │
 ├─ outex hint :
 │
