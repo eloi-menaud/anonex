@@ -16,7 +16,7 @@ pip3 install xeger
 - create alias :
 
 ```bash
-echo 'alias anonex="Python3 -B path/to/anonex.py"' >> ~/.zshrc
+echo 'alias anonex="python3 -B path/to/anonex.py"' >> ~/.zshrc
 source ~/.zshrc
 ```
 - test readiness :
@@ -64,20 +64,6 @@ for exemple, in the previus exmple `[a-z]{5}@[a-z]{3}.com` will generate random 
 
 2- relation with groups
 
-but its much more powerful, cause you can do small relation :
-if you have an ligne like
-```
-eloi menaud : eloi.menaud@gmail.com
-```
-and you want to anonimise it, you won't something like,
-```
-joe smith : michael.dias@gmail.com
-```
-but something like,
-```
-joe smith : joe.smith@gmail.com
-```
-
 for this you can use `regex groups` by doing something like :
 ```
 ([0-9])-\1 # => 1-1, 2-2, 6-6, ...
@@ -102,3 +88,4 @@ the \1 try yo retreive the first group
 use like :
 outex=[0-9]~ln ~dra => 7smith 02/28/2012
 ```
+**add your own syntax** by adding fonction in the custom_syntax.py

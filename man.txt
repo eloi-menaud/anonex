@@ -1,0 +1,17 @@
+┌────────────────┐
+│   anonex man   │
+└────────────────┘
+│
+├─ special syntax outex :
+│
+│  ~ln  : last name
+│  ~fn  : first name
+│  ~ddb : date (db)
+│  ~da : date (classic americain)
+│  ~de : date (classic european)
+│
+├─ outex hint :
+│
+│  use group for 'repetition' :
+│  r'([0-9])-\\1' -> 7-7, 2-2....
+│       |_____|
