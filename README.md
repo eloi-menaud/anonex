@@ -1,5 +1,5 @@
 # anonex
-regex-based file editing tool, for annunciation and more
+regex-based file editing tool, for anonymisation and more
 
 # Get started
 ### prerequis
