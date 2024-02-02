@@ -24,8 +24,6 @@ source ~/.zshrc
 anonex --help
 ```
 
-# How it works
-
 ## conf file
 > to make it easier to use, all configuration with regex is done via a conf file instead of a command line.
 
@@ -36,21 +34,11 @@ file=path/to/fil
 inex=regex for selection
 outex=rgex for overwrite rules
 ```
-exemple:
 
-```ini
-# anonex.conf
-[DEFAULT]
-file=dump.txt
-inex=[a-z]+@gmail.com
-outex=[a-z]{5}@[a-z]{3}.com
-```
-```ini
-# dump.txt
-eloi@gmail.com
-pierre@gmail.com
-antoine@gmail.com
-```
+<br>
+<br>
+
+# How it works
 
 ##  inex
 this is the regex that will be used to match the expressions. "I want to replace all the patterns that look like **inex** to edit them".
